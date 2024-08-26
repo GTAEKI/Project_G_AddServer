@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1806cfdbe1ec724799e55427e2685f2, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  objectData:
+  - <Name>k__BackingField: roadAsphalt_pavement
+    <ID>k__BackingField: 0
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 1822453459799778705, guid: 5d38231dc6d15894c9bf254aae4d97a9,
+      type: 3}
+    <BuildingType>k__BackingField: 0
+    <BuildingPrice>k__BackingField: 0
+  - <Name>k__BackingField: roadAsphalt_road_parent
+    <ID>k__BackingField: 1
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 1822453459799778705, guid: f758b9061aa50854ba4b759250c94e17,
+      type: 3}
+    <BuildingType>k__BackingField: 0
+    <BuildingPrice>k__BackingField: 0
+  - <Name>k__BackingField: Base_building_tower_a_parent
+    <ID>k__BackingField: 2
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 3251358402267180642, guid: f7aed2faf183e8e4890475484d7340de,
+      type: 3}
+    <BuildingType>k__BackingField: 1
+    <BuildingPrice>k__BackingField: 100
+  - <Name>k__BackingField: Base_building_house_c_parent
+    <ID>k__BackingField: 3
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 1702938083802538661, guid: 2307138b3a8dbe94e9c09cd1560e5a37,
+      type: 3}
+    <BuildingType>k__BackingField: 1
+    <BuildingPrice>k__BackingField: 400
+  - <Name>k__BackingField: Base_small_buildingE_parent
+    <ID>k__BackingField: 4
+    <Size>k__BackingField: {x: 4, y: 2}
+    <Prefab>k__BackingField: {fileID: 7673464862960249759, guid: e940c3472994805488292fd405f53901,
+      type: 3}
+    <BuildingType>k__BackingField: 1
+    <BuildingPrice>k__BackingField: 600
+  - <Name>k__BackingField: Base_small_buildingE_parent
+    <ID>k__BackingField: 5
+    <Size>k__BackingField: {x: 4, y: 4}
+    <Prefab>k__BackingField: {fileID: 3300081761983933334, guid: 1dc52c59535b58242b9461e03b05da2b,
+      type: 3}
+    <BuildingType>k__BackingField: 1
+    <BuildingPrice>k__BackingField: 1200

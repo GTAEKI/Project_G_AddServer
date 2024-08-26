@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class Managers : MonoBehaviour
@@ -6,7 +5,7 @@ public class Managers : MonoBehaviour
     public static bool Initialized { get; set; } = false;
 
     private static Managers s_instance;
-    private static Managers Instance { get { Init(); return s_instance; } }
+    public static Managers Instance { get { Init(); return s_instance; } }
 
     private ResourceManager _resource = new ResourceManager();
     private GameManager _game = new GameManager();
@@ -18,12 +17,7 @@ public class Managers : MonoBehaviour
     private HeroSpawnAreaManager _heroSpawn = new HeroSpawnAreaManager();
     private RoundManager _round = new RoundManager();
     private SoundManager _sound = new SoundManager();
-    // HSJ 
-    private ScrapManager _scrap = new ScrapManager();
-    private ProjectileManager _projectile = new ProjectileManager();
-    private BaseMapManager _basemap = new BaseMapManager();
-    private QuestManager _quest = new QuestManager();
-
+    private WebManager _web = new WebManager();
 
     public static ResourceManager Resource { get { return Instance?._resource; } }
     public static GameManager Game { get { return Instance?._game; } }
@@ -35,7 +29,14 @@ public class Managers : MonoBehaviour
     public static HeroSpawnAreaManager HeroSpawn { get { return Instance?._heroSpawn; } }
     public static RoundManager Round { get { return Instance?._round; } }
     public static SoundManager Sound { get { return Instance?._sound; } }
+    public static WebManager Web { get { return Instance?._web; } }
+    
     // HSJ 
+    private ScrapManager _scrap = new ScrapManager();
+    private ProjectileManager _projectile = new ProjectileManager();
+    private BaseMapManager _basemap = new BaseMapManager();
+    private QuestManager _quest = new QuestManager();
+ 
     public static ScrapManager Scrap { get { return Instance?._scrap; } }
     public static ProjectileManager Projectile { get { return Instance?._projectile; } }
     public static BaseMapManager BaseMap { get { return Instance?._basemap; } }
@@ -58,6 +59,7 @@ public class Managers : MonoBehaviour
 
             s_instance = go.GetComponent<Managers>();
             s_instance._sound.Init();
+            s_instance._web.Init();
         }
     }
 }

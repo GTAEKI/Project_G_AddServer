@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using WebPacket;
 using static Define;
 
 public class BattleScene : InitBase
@@ -33,6 +34,26 @@ public class BattleScene : InitBase
         Managers.Game.OnGameResult += EndGame;
 
         Managers.Sound.Play(Define.ESound.Bgm, "BattleScene");
+
+        #region WebPacket Test
+        ScrapPacketReq req = new ScrapPacketReq()
+        {
+            userId = "Taek",
+            token = "2222",
+            scrap = Managers.Scrap.Scrap
+        };
+
+        Managers.Web.SendPostRequest<ScrapPacketRes>("scrap/post", req, (result) => 
+        {
+            if (result == null) 
+            {
+                Debug.Log("Web Response NULL");
+                return;
+            }
+
+            Debug.Log($"Wep Res : {result.success}");
+        });
+            #endregion
 
         return true;
     }

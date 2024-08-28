@@ -1,0 +1,15 @@
+D:\2.Unity\Project_G_AddServer\Server\GameDB\bin\Debug\net8.0\GameDB.deps.json
+D:\2.Unity\Project_G_AddServer\Server\GameDB\bin\Debug\net8.0\GameDB.runtimeconfig.json
+D:\2.Unity\Project_G_AddServer\Server\GameDB\bin\Debug\net8.0\GameDB.dll
+D:\2.Unity\Project_G_AddServer\Server\GameDB\bin\Debug\net8.0\GameDB.pdb
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\GameDB.csproj.AssemblyReference.cache
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\GameDB.GeneratedMSBuildEditorConfig.editorconfig
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\GameDB.AssemblyInfoInputs.cache
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\GameDB.AssemblyInfo.cs
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\GameDB.csproj.CoreCompileInputs.cache
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\GameDB.sourcelink.json
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\GameDB.dll
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\refint\GameDB.dll
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\GameDB.pdb
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\GameDB.genruntimeconfig.cache
+D:\2.Unity\Project_G_AddServer\Server\GameDB\obj\Debug\net8.0\ref\GameDB.dll

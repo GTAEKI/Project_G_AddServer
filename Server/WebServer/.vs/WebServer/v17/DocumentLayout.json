@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "D:\\2.Unity\\Project_G_AddServer\\Server\\WebServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|d:\\2.unity\\project_g_addserver\\server\\webserver\\controllers\\scrapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|solutionrelative:controllers\\scrapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{872C3658-D14C-48D1-9017-F10D8562FFB4}|..\\ConsoleTest\\ConsoleTest.csproj|d:\\2.unity\\project_g_addserver\\server\\consoletest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872C3658-D14C-48D1-9017-F10D8562FFB4}|..\\ConsoleTest\\ConsoleTest.csproj|d:\\2.unity\\project_g_addserver\\server\\consoletest\\consoletest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GameDb/True/SqlTable/dbo.Test.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\Migrations\\20240828110745_AddTest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65161F65-5ECA-4AC6-83A5-933F1128A711}|..\\GameDB\\GameDB.csproj|d:\\2.unity\\project_g_addserver\\server\\gamedb\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65161F65-5ECA-4AC6-83A5-933F1128A711}|..\\GameDB\\GameDB.csproj|d:\\2.unity\\project_g_addserver\\server\\gamedb\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65161F65-5ECA-4AC6-83A5-933F1128A711}|..\\GameDB\\GameDB.csproj|d:\\2.unity\\project_g_addserver\\server\\gamedb\\migrations\\20240827132419_addindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65161F65-5ECA-4AC6-83A5-933F1128A711}|..\\GameDB\\GameDB.csproj|d:\\2.unity\\project_g_addserver\\server\\gamedb\\migrations\\20240827082605_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|d:\\2.unity\\project_g_addserver\\server\\webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|d:\\2.unity\\project_g_addserver\\server\\webserver\\data\\webpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|solutionrelative:data\\webpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|d:\\2.unity\\project_g_addserver\\server\\webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|d:\\2.unity\\project_g_addserver\\server\\webserver\\controllers\\scrapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|solutionrelative:controllers\\scrapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|d:\\2.unity\\project_g_addserver\\server\\webserver\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0890DF11-C5EA-4A14-947B-AB34FE9C496E}|WebServer.csproj|d:\\2.unity\\project_g_addserver\\server\\webserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -26,11 +54,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ConsoleTest",
+              "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\ConsoleTest\\ConsoleTest.csproj",
+              "RelativeDocumentMoniker": "..\\ConsoleTest\\ConsoleTest.csproj",
+              "ToolTip": "D:\\2.Unity\\Project_G_AddServer\\Server\\ConsoleTest\\ConsoleTest.csproj",
+              "RelativeToolTip": "..\\ConsoleTest\\ConsoleTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-28T11:08:41.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240828110745_AddTest2.cs",
+              "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\Migrations\\20240828110745_AddTest2.cs",
+              "RelativeDocumentMoniker": "..\\GameDB\\Migrations\\20240828110745_AddTest2.cs",
+              "ToolTip": "D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\Migrations\\20240828110745_AddTest2.cs",
+              "RelativeToolTip": "..\\GameDB\\Migrations\\20240828110745_AddTest2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T11:07:45.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240827132419_AddIndex.cs",
+              "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\Migrations\\20240827132419_AddIndex.cs",
+              "RelativeDocumentMoniker": "..\\GameDB\\Migrations\\20240827132419_AddIndex.cs",
+              "ToolTip": "D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\Migrations\\20240827132419_AddIndex.cs",
+              "RelativeToolTip": "..\\GameDB\\Migrations\\20240827132419_AddIndex.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T11:06:44.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\ConsoleTest\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleTest\\Program.cs",
+              "ToolTip": "D:\\2.Unity\\Project_G_AddServer\\Server\\ConsoleTest\\Program.cs",
+              "RelativeToolTip": "..\\ConsoleTest\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T11:05:51.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Test [\uB370\uC774\uD130]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GameDb/True/SqlTable/dbo.Test.sql",
+              "ToolTip": "dbo.Test [\uB370\uC774\uD130]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-28T11:04:07.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240827082605_Init.cs",
+              "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\Migrations\\20240827082605_Init.cs",
+              "RelativeDocumentMoniker": "..\\GameDB\\Migrations\\20240827082605_Init.cs",
+              "ToolTip": "D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\Migrations\\20240827082605_Init.cs",
+              "RelativeToolTip": "..\\GameDB\\Migrations\\20240827082605_Init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T08:26:05.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataModel.cs",
+              "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\DataModel.cs",
+              "RelativeDocumentMoniker": "..\\GameDB\\DataModel.cs",
+              "ToolTip": "D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\DataModel.cs",
+              "RelativeToolTip": "..\\GameDB\\DataModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T08:15:17.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameDbContext.cs",
+              "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\GameDbContext.cs",
+              "RelativeDocumentMoniker": "..\\GameDB\\GameDbContext.cs",
+              "ToolTip": "D:\\2.Unity\\Project_G_AddServer\\Server\\GameDB\\GameDbContext.cs",
+              "RelativeToolTip": "..\\GameDB\\GameDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:52:24.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\WebServer\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Services\\AccountService.cs",
+              "ToolTip": "D:\\2.Unity\\Project_G_AddServer\\Server\\WebServer\\Services\\AccountService.cs",
+              "RelativeToolTip": "Services\\AccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:39:53.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "WebPacket.cs",
               "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\WebServer\\Data\\WebPacket.cs",
               "RelativeDocumentMoniker": "Data\\WebPacket.cs",
@@ -43,20 +185,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "ScrapController.cs",
               "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\WebServer\\Controllers\\ScrapController.cs",
               "RelativeDocumentMoniker": "Controllers\\ScrapController.cs",
               "ToolTip": "D:\\2.Unity\\Project_G_AddServer\\Server\\WebServer\\Controllers\\ScrapController.cs",
               "RelativeToolTip": "Controllers\\ScrapController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T12:20:49.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\WebServer\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -69,13 +211,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\2.Unity\\Project_G_AddServer\\Server\\WebServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\2.Unity\\Project_G_AddServer\\Server\\WebServer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T11:43:56.982Z",
               "EditorCaption": ""

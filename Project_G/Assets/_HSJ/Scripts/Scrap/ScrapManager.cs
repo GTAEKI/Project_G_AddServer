@@ -2,10 +2,23 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using WebPacket;
 
 public class ScrapManager
 {
-    public int Scrap { get; private set; }
+    // BKT
+    private int _scrap;
+    public int Scrap 
+    {
+        get { return _scrap; } 
+        private set 
+        {
+            _scrap = value;
+            //SendScrapUpdate();
+        }
+    }
+    // BKT
+
     public string ScrapTxt { get; private set; }
     public EventHandler addScrapEvent;
 
@@ -18,8 +31,11 @@ public class ScrapManager
     public void Init()
     {
         Scrap = 500;
+
+
         ScrapTxt = Scrap.ToString();
     }
+
     public int GetCurrentScrap()
     {
         return Scrap;
@@ -67,4 +83,54 @@ public class ScrapManager
         yield return null;
     }
 
+    //BKT
+    public void SendScrapUpdate() 
+    {
+        #region WebPacket Test
+        ScrapPacketReq req = new ScrapPacketReq()
+        {
+            userId = "Taek",
+            token = "2222",
+            scrap = Scrap
+        };
+
+        Managers.Web.SendPostRequest<ScrapPacketRes>("scrap/input", req, (result) =>
+        {
+            if (result == null)
+            {
+                Debug.Log("Web Response NULL");
+                return;
+            }
+
+            Debug.Log($"Wep Res : {result.success}");
+        });
+        #endregion
+    }
+
+    private int GetScrapFromDb() 
+    {
+        int ret = 0;
+
+        ScrapPacketReq req = new ScrapPacketReq()
+        {
+            userId = "Taek",
+            token = "2222",
+            scrap = Scrap
+        };
+
+        Managers.Web.SendPostRequest<ScrapPacketRes>("scrap/get", req, (result) =>
+        {
+            if (result == null)
+            {
+                Debug.Log("Web Response NULL");
+                return;
+            }
+
+            ret = result.scrap;
+            Debug.Log($"Wep Res : {result.success}, Scrap : {result.scrap}");
+        });
+
+        return ret;
+    }
+    //BKT
 }

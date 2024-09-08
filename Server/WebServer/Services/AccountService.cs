@@ -1,8 +1,9 @@
-﻿namespace WebServer.Services
+﻿using GameDB;
+
+namespace WebServer.Services
 {
     public class AccountService
     {
-
         int _idGenerator = 1;
 
         public int GenerateAccountId() 

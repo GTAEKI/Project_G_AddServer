@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GameDB.Migrations
 {
     [DbContext(typeof(GameDbContext))]
-    [Migration("20240828110745_AddTest2")]
-    partial class AddTest2
+    [Migration("20240908135841_ReInit")]
+    partial class ReInit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,30 +24,27 @@ namespace GameDB.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("GameDB.TestDb", b =>
+            modelBuilder.Entity("GameDB.PlayerDb", b =>
                 {
-                    b.Property<int>("TestDbId")
+                    b.Property<int>("PlayerDbId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TestDbId"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PlayerDbId"));
 
                     b.Property<int>("Scrap")
                         .HasColumnType("int");
 
-                    b.Property<int>("Test2")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("TestDbId");
+                    b.HasKey("PlayerDbId");
 
-                    b.HasIndex("Name")
+                    b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Test");
+                    b.ToTable("Player");
                 });
 #pragma warning restore 612, 618
         }

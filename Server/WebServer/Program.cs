@@ -1,4 +1,5 @@
 
+using GameDB;
 using WebServer.Services;
 
 namespace WebServer
@@ -16,9 +17,13 @@ namespace WebServer
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            //DB
+            builder.Services.AddDbContext<GameDbContext>();
+
             // Services
-            builder.Services.AddSingleton<AccountService>(); // ¿¸√º ΩÃ±€≈Ê
+            //builder.Services.AddSingleton<AccountService>(); // ¿¸√º ΩÃ±€≈Ê
             //builder.Services.AddScoped<AccountService>(); // ¡¢º”∫∞ ΩÃ±€≈Ê
+            builder.Services.AddScoped<ScrapService>();
 
             var app = builder.Build();
 

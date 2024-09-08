@@ -35,25 +35,8 @@ public class BattleScene : InitBase
 
         Managers.Sound.Play(Define.ESound.Bgm, "BattleScene");
 
-        #region WebPacket Test
-        ScrapPacketReq req = new ScrapPacketReq()
-        {
-            userId = "Taek",
-            token = "2222",
-            scrap = Managers.Scrap.Scrap
-        };
-
-        Managers.Web.SendPostRequest<ScrapPacketRes>("scrap/post", req, (result) => 
-        {
-            if (result == null) 
-            {
-                Debug.Log("Web Response NULL");
-                return;
-            }
-
-            Debug.Log($"Wep Res : {result.success}");
-        });
-            #endregion
+        //Test
+        Managers.Scrap.SendScrapUpdate();
 
         return true;
     }

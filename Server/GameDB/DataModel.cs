@@ -7,13 +7,11 @@ using System.Threading.Tasks;
 
 namespace GameDB
 {
-    [Table("Test")]
-    public class TestDb
+    [Table("Player")]
+    public class PlayerDb 
     {
-        // Convention : [클래스]Id로 명명하면 PK
-        public int TestDbId { get; set; }
-        public string Name { get; set; }
+        public int PlayerDbId { get; set; }
+        public string UserId { get; set; }
         public int Scrap { get; set; }
-        public int Test2 { get; set; }
     }
 }

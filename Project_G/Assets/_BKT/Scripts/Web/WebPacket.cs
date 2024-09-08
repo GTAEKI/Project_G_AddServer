@@ -17,5 +17,6 @@ namespace WebPacket
     public class ScrapPacketRes
     {
         public bool success;
+        public int scrap;
     }
 }

@@ -8,24 +8,39 @@ namespace WebServer.Controllers
     [Route("scrap")]
     public class ScrapController : ControllerBase
     {
-        AccountService _service;
+        ScrapService _scrapService;
 
-        public ScrapController(AccountService service) 
+        public ScrapController(ScrapService scrapService) 
         {
-            _service = service;
+            _scrapService = scrapService;
         }
 
-        //ip:port/scrap/post
         [HttpPost]
-        [Route("post")]
-        public ScrapPacketRes ScrapPost([FromBody] ScrapPacketReq value)
+        [Route("input")]
+        public ScrapPacketRes InputScrap([FromBody] ScrapPacketReq value)
         {
             ScrapPacketRes result = new ScrapPacketRes();
-            result.success = true;
 
-            int id = _service.GenerateAccountId();
+            _scrapService.InputScrapByPlayerId(value.userId, value.scrap);
+
+            result.success = true;
+            result.scrap = value.scrap;
 
             return result;
         }
+
+        [HttpPost]
+        [Route("get")]
+        public ScrapPacketRes GetScrap([FromBody] ScrapPacketReq value)
+        {
+            ScrapPacketRes result = new ScrapPacketRes();
+
+            result.scrap = _scrapService.GetScrapByPlayerId(value.userId);
+            result.success = true;
+
+            return result;
+        }
+
+
     }
 }

@@ -1,6 +1,7 @@
 ### 🖥️  프로젝트 소개
 
 - Project_G 프로젝트 종료 후 웹 서버 구현 및 데이터베이스 적용
+- 유튜브 : https://www.youtube.com/watch?v=0wAs5121HDs
   
 ### 🕰️ 개발 기간
 
